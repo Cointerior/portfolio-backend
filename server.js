@@ -29,7 +29,7 @@ const sendEmail = (name, email, subject, message, res) => {
 
     const mailOptions = {
         from: "cointerior15@gmail.com",
-        to: "ijaolaomoniyi001@gmail.com",
+        to: "cointerior15@gmail.com",
         subject: subject,
         html: `${message} from ${email}`
     }
